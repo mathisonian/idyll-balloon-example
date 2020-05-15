@@ -1,0 +1,19 @@
+[meta title:"Balloon Test" description:"Short description of your project" /]
+
+[Header
+  fullWidth:true
+  title:"Balloon Test"
+  subtitle:"Welcome to Idyll. Open index.idyll to start writing"
+  author:"Your Name Here"
+  authorLink:"https://idyll-lang.org"
+  date:`(new Date()).toDateString()`
+  background:"#222222"
+  color:"#ffffff"
+   /]
+
+
+[var name:"scale" value:1 /]
+
+[Balloon scale:scale /]
+
+[Range value:scale min:0.01 max:100 step:0.01 /]
